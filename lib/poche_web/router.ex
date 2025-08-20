@@ -21,6 +21,7 @@ defmodule PocheWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/about", PageController, :about
     get "/users", PageController, :users
 
     resources "/reading_lists", ReadingListController
