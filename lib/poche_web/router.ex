@@ -23,6 +23,7 @@ defmodule PocheWeb.Router do
     get "/", PageController, :home
     get "/about", PageController, :about
     get "/users", PageController, :users
+    get "/health", PageController, :health
 
     resources "/reading_lists", ReadingListController
   end

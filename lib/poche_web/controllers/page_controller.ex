@@ -13,6 +13,12 @@ defmodule PocheWeb.PageController do
     render(conn, :about)
   end
 
+  def health(conn, _params) do
+    # This is a simple endpoint to check if the server is running.
+    # It can be used for health checks or debugging.
+    text(conn, "OK")
+  end
+
   def users(conn, _params) do
     # The home page is often custom made,
     # so skip the default app layout.
