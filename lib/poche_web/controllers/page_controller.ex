@@ -24,9 +24,9 @@ defmodule PocheWeb.PageController do
     # so skip the default app layout.
 
     users = [
-      %{id: 1, name: "Alice", email: ""},
-      %{id: 2, name: "Bob", email: ""},
-      %{id: 3, name: "Max", email: ""}
+      %{id: 1, name: "Jean", email: ""},
+      %{id: 2, name: "Paul", email: ""},
+      %{id: 3, name: "Jacques", email: ""}
     ]
 
     render(conn, :users, users: users)
