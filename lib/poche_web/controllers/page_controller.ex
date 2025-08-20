@@ -26,7 +26,8 @@ defmodule PocheWeb.PageController do
     users = [
       %{id: 1, name: "Jean", email: ""},
       %{id: 2, name: "Paul", email: ""},
-      %{id: 3, name: "Jacques", email: ""}
+      %{id: 3, name: "Jacques", email: ""},
+      %{id: 4, name: "Jeanne", email: ""}
     ]
 
     render(conn, :users, users: users)
